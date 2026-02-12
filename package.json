@@ -1,0 +1,16 @@
+{
+  "name": "sec-insider-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to track SEC Form 4 insider trading filings from EDGAR",
+  "main": "index.js",
+  "bin": {
+    "sec-insider": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["sec", "edgar", "insider-trading", "form-4", "cli"],
+  "author": "",
+  "license": "MIT"
+}
