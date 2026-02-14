@@ -8,9 +8,16 @@
   },
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node test/index.test.js"
   },
-  "keywords": ["sec", "edgar", "insider-trading", "form-4", "cli"],
+  "keywords": [
+    "sec",
+    "edgar",
+    "insider-trading",
+    "form-4",
+    "cli"
+  ],
   "author": "",
   "license": "MIT"
 }
